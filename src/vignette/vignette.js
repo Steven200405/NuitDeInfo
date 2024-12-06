@@ -14,7 +14,7 @@ class Vignette {
 const Estomac = new Vignette(
     "Le Microbiome de l’océan : Essentiel à notre Santé et à l'Équilibre de la Planète",
     "Nos estomacs abrite des milliers de bonnes bactéries, champignons, virus et parasites non pathogènes. C’est ce que l’on appelle le microbiote. Il joue un rôle essentiel dans la digestion, la protection contre les infections, le maintien de l'équilibre du système immunitaire et même l'influence sur l'humeur et la santé mentale.L’océan est le microbiote de notre monde, il contient un très grand nombre de bactéries, de microbes, de virus, de champignons et de micro-algues. On l'appelle le microbiome, cette environnement permet à énormément d'espèce de se développer et à maintenire l’équilibre du monde animal. ",
-    "Texte plus simple",
+    "L’océan est un acteur clé dans la biodiversité en distribuant les nutriments à la vie. Il fonctionne comme un microbiote, soutenant des microbes bénéfiques pour la planète. L’océan est un énorme microbiome, c’est-à-dire un ensemble de microorganismes habitant l’océan.",
     Images/microbiome.jpg,
     "Description",
     "https://fondationtaraocean.org/mission-microbiomes/microbiome-marin-majorite-invisible-locean/"
@@ -59,7 +59,7 @@ const Coeur = new Vignette(
     "L’océan :  Notre source d'Oxygène ",
     "Le cœur permet de réoxygéner tout notre système sanguin à chaque battement tout comme les phytoplanctons (micro-organismes marins) , contenue dans l’océan, qui rejettent entre 50% à 80% d'oxygène dans notre atmosphère. De plus, l'océan absorbe un quart du CO2 rejeté par l’homme. ",
     "Texte plus simple",
-    Images/Coeur.png,
+    null,
     "Description",
     null
 );
