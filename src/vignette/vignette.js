@@ -19,9 +19,19 @@ const Estomac = new Vignette(
     "Description",
     "https://fondationtaraocean.org/mission-microbiomes/microbiome-marin-majorite-invisible-locean/"
 );
+const Peau = new Vignette(
+    "La Peau et l'Océan : Deux Barrières Essentielles à l'Équilibre",
+    "Le plus grand organisme du corps humain : il agit comme une barrière protectrice tout en régulant la température corporelle. Comme la surface de l’océan! La surface de l’océan est un interface entre l’atmosphère et les profondeurs, elle régule l’échange de chaleur, d’humidité et de gaz, tout en protégeant les écosystèmes sous-jacents..La peau protège le corps des agressions externes (UV, microbes, substances toxiques) et la surface de l’océan sert de barrière entre l'atmosphère et les profondeurs marines, protégeant les écosystèmes marins des variations climatiques extrêmes et des polluants extérieurs.La peau participe aux échanges minimes de gaz (CO₂ et O₂) à travers la sueur et les pores.La surface de l’océan joue un rôle clé dans les échanges de gaz avec l’atmosphère, en absorbant le dioxyde de carbone (CO₂) et en libérant de l’oxygène produit par le phytoplancton.",
+    "Texte plus simple",
+    Images/Surface_de_leau.jpg,
+    "Description",
+    null
+);
+
 
 // Stockage de l'instance dans l'objet global
 window.Estomac = Estomac;
+window.Peau=Peau;
 
 // Fonction pour afficher le titre
 function afficherTout() {
