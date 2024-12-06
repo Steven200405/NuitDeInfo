@@ -82,4 +82,5 @@ h1 {
 
 .vignette{
     text-align: justify;
+    border: 1px solid black;
 }
