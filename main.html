@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page puissances 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <img class="logo img-fuid"
+                src="https://i0.wp.com/ocean-climate.org/wp-content/uploads/2024/04/logo-poc.png?w=400&ssl=1"
+                alt="Logo">
+            <h1>Accueil</h1>
+        </header>
+
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="base.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Decouverte.html">Découverte de
+                                    l'océan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Consequences.html">Conséquences sur
+                                    l'océan</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="BlocContenu">
+
+                <section class="heart-container">
+                    <img class="img-responsive mx-auto d-block bodyImg" src="./../Images/Corp_humain.png"
+                        alt="Corps Humain" usemap="#bodymap">
+
+                    <map name="bodymap">
+                        <area target="_blank" alt="Poumon gauche" title="Poumon gauche" href="javascript:void(0)"
+                            onclick="afficherTout(event,'Poumon')"
+                            coords="310,309,313,281,320,261,332,244,350,234,359,237,365,247,364,257,367,263,355,280,358,290,361,299,364,317,361,328,353,337,341,344,325,350,309,351,305,343,307,329"
+                            shape="poly" class="organe">
+                        <area target="_blank" alt="Poumon droit" title="Poumon droit" href="javascript:void(0)"
+                            onclick="afficherTout(event,'Poumon')"
+                            coords="397,250,398,236,406,230,413,234,423,238,431,246,438,254,447,273,451,291,456,311,457,335,452,350,443,351,433,349,420,341,408,334,404,316,408,301,409,290,403,275,395,267"
+                            shape="poly" class="organe">
+                        <area target="_blank" alt="Cœur" title="Cœur" href="javascript:void(0)"
+                            onclick="afficherTout(event,'Coeur')"
+                            coords="368,250,374,254,380,246,387,247,386,253,379,258,376,263,381,268,386,260,394,254,394,262,391,269,401,275,406,283,408,291,407,301,406,309,401,318,395,318,386,311,375,305,365,295,364,284,359,275,367,265,366,257"
+                            shape="poly" class="organe">
+                        <area target="_blank" alt="Rein droit" title="Rein droit" href="javascript:void(0)"
+                            onclick="afficherTout(event,'Rein')"
+                            coords="439,491,440,480,447,475,453,476,457,482,457,491,454,500,447,507,442,513,435,513,432,507,439,497"
+                            shape="poly" class="organe">
+                        <area target="_blank" alt="Rein gauche" title="Rein gauche" href="javascript:void(0)"
+                            onclick="afficherTout(event,'Rein')"
+                            coords="312,479,318,478,321,484,323,492,330,499,332,506,329,510,318,510,311,505,306,496,307,483,305,489,307,483"
+                            shape="poly" class="organe">
+                        <area target="_blank" alt="Estomac" title="Estomac" href="javascript:void(0)"
+                            onclick="afficherTout(event,'Estomac')"
+                            coords="364,383,365,390,369,396,376,400,383,401,393,400,408,396,421,393,433,385,439,375,441,365,435,356,424,349,416,351,409,360,401,368,392,372,384,371,378,366,374,372,368,376,362,374"
+                            shape="poly" class="organe">
+                        <area target="_blank" alt="peau1" title="peau1" href="javascript:void(0)"
+                            onclick="afficherTout(event,'Peau')"
+                            coords="202,432,250,449,274,335,280,353,286,395,291,432,293,461,293,490,287,529,279,579,276,654,277,703,358,707,368,601,354,545,343,539,341,559,350,596,358,613,356,628,350,630,346,615,348,583,334,543,350,537,331,493,331,506,326,513,312,508,305,492,306,483,314,478,321,477,318,464,319,454,325,448,319,444,324,434,318,432,315,420,313,403,313,395,317,385,314,372,316,356,302,351,302,337,309,304,312,275,337,236,350,233,362,238,365,246,372,246,374,224,363,220,358,204,358,187,367,177,385,174,394,178,398,190,398,203,395,214,385,221,381,231,383,238,385,244,393,244,400,234,414,235,424,242,435,249,443,264,449,281,453,301,459,322,456,343,454,356,436,353,438,361,442,373,438,382,432,389,422,393,432,399,440,417,438,436,441,449,437,462,435,473,449,476,455,480,458,490,455,499,449,508,440,514,432,515,415,513,402,523,386,540,388,552,403,537,413,545,409,574,405,584,401,590,389,563,384,577,381,603,388,704,470,703,470,628,461,502,460,394,466,316,500,448,544,422,510,245,479,230,429,202,410,178,407,159,411,142,423,124,423,108,337,124,345,164,346,180,333,192,299,210,268,223,243,235,234,262,228,325,218,368"
+                            shape="poly" class="organe">
+                        <area target="_blank" alt="Sang1" title="Sang1" href="javascript:void(0)"
+                            onclick="afficherTout(event,'Sang')" coords="200,432,246,450,220,576,191,567" shape="poly"
+                            class="organe">
+                        <area target="_blank" alt="Sang2" title="Sang2" href="javascript:void(0)"
+                            onclick="afficherTout(event,'Sang')" coords="503,451,542,430,559,553,537,565" shape="poly"
+                            class="organe">
+                    </map>
+                </section>
+
+                <section class="vignette">
+                    <h3 id="titre"></h3>
+                    <p id="texte"></p>
+                    <p id="texteAccessible"></p>
+                    <img id="image" src="" alt="Image de la vignette" class="img-fluid">
+                    <a id="lien" href="#" target="_blank"></a>
+                </section>
+
+            </div>
+            <script src="./vignette/vignette.js">
+            </script>
+            <footer>
+                <p>&copy; 2024 NDI Les puissances 4</p>
+            </footer>
+    </div>
+</body>
+
+</html>
