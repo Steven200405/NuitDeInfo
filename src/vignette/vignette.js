@@ -48,7 +48,7 @@ const vignettes = {
         "L’océan :  Notre source d'Oxygène ",
         "Le cœur permet de réoxygéner tout notre système sanguin à chaque battement tout comme les phytoplanctons (micro-organismes marins) , contenue dans l’océan, qui rejettent entre 50% à 80% d'oxygène dans notre atmosphère. De plus, l'océan absorbe un quart du CO2 rejeté par l’homme. ",
         "Texte plus simple",
-        "./../Images/Coeur.png",
+        "./../Images/coeurOcean.jpg",
         "Description",
         null
 )
@@ -99,3 +99,4 @@ function afficherTout(event,titre) {
         }
 
     }
+}
