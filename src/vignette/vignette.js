@@ -25,6 +25,6 @@ window.Estomac = Estomac;
 
 // Fonction pour afficher le titre
 function afficherTout() {
-        document.getElementById('titre').textContent = window.Vignette1.titre;
-        document.getElementById('texte').textContent = window.Vignette1.texte;
+        document.getElementById('titre').textContent = window.Estomac.titre;
+        document.getElementById('texte').textContent = window.Estomac.texte;
 }
