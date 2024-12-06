@@ -11,38 +11,20 @@ class Vignette {
 }
 
 // Création d'une instance de Vignette
-const vignette1 =  {
-    "Estomac": new Vignette(
-        "Estomac",
-        "Test",
-        "Texte plus simple",
-        null,
-        "Description de l'estomac",
-        null
-    ),
-    "Poumon": new Vignette(
-        "Poumon",
-        "Texte du poumon",
-        "Texte accessible poumon",
-        null,
-        "Description du poumon",
-        null
-    ),
-    "Rein": new Vignette(
-        "Rein gauche",
-        "Texte du rein gauche",
-        "Texte accessible rein gauche",
-        null,
-        "Description du rein gauche",
-        null
-    ),
-};
+const vignette1 = new Vignette(
+    "Titre 1",
+    "Texte blabla",
+    "Texte plus simple",
+    null,
+    "Description",
+    null
+);
 
 // Stockage de l'instance dans l'objet global
-window.Vignette1 = vignette1;
+window.Estomac = Estomac;
 
 // Fonction pour afficher le titre
-function afficherTout(titre) {
-        document.getElementById('titre').textContent = window.vignette.titre;
-        document.getElementById('texte').textContent = window.vignette.texte;
+function afficherTout() {
+        document.getElementById('titre').textContent = window.Vignette1.titre;
+        document.getElementById('texte').textContent = window.Vignette1.texte;
 }
