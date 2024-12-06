@@ -14,7 +14,7 @@ class Vignette {
 const Estomac = new Vignette(
     "Le Microbiome de l’océan : Essentiel à notre Santé et à l'Équilibre de la Planète",
     "Nos estomacs abrite des milliers de bonnes bactéries, champignons, virus et parasites non pathogènes. C’est ce que l’on appelle le microbiote. Il joue un rôle essentiel dans la digestion, la protection contre les infections, le maintien de l'équilibre du système immunitaire et même l'influence sur l'humeur et la santé mentale.L’océan est le microbiote de notre monde, il contient un très grand nombre de bactéries, de microbes, de virus, de champignons et de micro-algues. On l'appelle le microbiome, cette environnement permet à énormément d'espèce de se développer et à maintenire l’équilibre du monde animal. ",
-    "Texte plus simple",
+    "L’océan est un acteur clé dans la biodiversité en distribuant les nutriments à la vie. Il fonctionne comme un microbiote, soutenant des microbes bénéfiques pour la planète. L’océan est un énorme microbiome, c’est-à-dire un ensemble de microorganismes habitant l’océan.",
     Images/microbiome.jpg,
     "Description",
     "https://fondationtaraocean.org/mission-microbiomes/microbiome-marin-majorite-invisible-locean/"
@@ -41,7 +41,7 @@ const Poumons = new Vignette(
     "Poumons et Océan : La Biodiversité, Gardienne  de la santé",
     "Les poumons abritent une flore microbienne spécifique qui aide à la protection et à la santé respiratoire. L'océan, avec ses récifs coralliens et sa biodiversité marine, abrite une vie complexe qui soutient les cycles naturels, et permet à l’océan de capturer le CO2 et à distribuer l’oxygène. La biodiversité permet, tout comme la flore microbienne des poumons, de protéger les d'océan d'espèce invasive qui nuisent au bon équilibre mondiale.",
     "Texte plus simple",
-    null,
+    Images/coraux_diversité_poumons.jpg,
     "Description",
     null
 );
@@ -50,7 +50,7 @@ const Sang = new Vignette(
     "Océan et Sang : La Circulation des Fluides au Service de la Température Planétaire",
     "L’océan permet de de stocker la chaleur, régulant la température mondiale. Cela s'explique par les courants océaniques qui distribuent l’excès de chaleur reçu aux tropiques vers les plus hautes latitudes. D’une manière générale, les gaz sont plus solubles dans les eaux froides que chaudes. Par conséquent, les eaux de surfaces des hautes latitudes sont plus riches en gaz que celles des basses latitudes. Le renouvellement des eaux de surface par la circulation océanique jouent par conséquent un rôle très important dans le cycle du gaz carbonique et du carbone, en entraînant les eaux enrichies des hautes latitudes vers l’océan profond.",
     "Texte plus simple",
-    null,
+    Images/courant_océanique_températue.webp,
     "Description",
     "https://ocean-climate.org/presentation-des-fiches-scientifiques-ocean-et-climat/locean-reservoir-de-chaleur/"
 );
