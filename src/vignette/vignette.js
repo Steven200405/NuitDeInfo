@@ -1,4 +1,4 @@
-
+// Classe Vignette
 class Vignette {
     constructor(titre, texte, texteAccessible, image, descriptionImage, lien) {
         this.titre = titre;
@@ -99,3 +99,6 @@ function afficherTout(event,titre) {
         }
 
     }
+
+
+}
