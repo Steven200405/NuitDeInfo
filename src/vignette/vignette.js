@@ -21,20 +21,20 @@ const vignettes = {
         "https://fondationtaraocean.org/mission-microbiomes/microbiome-marin-majorite-invisible-locean/"
     ),
     "Poumon": new Vignette(
-        "Poumon",
-        "Texte du poumon",
-        "Texte accessible poumon",
-        null,
-        "Description du poumon",
+        "Poumons et Océan : La Biodiversité, Gardienne  de la santé",
+        "Les poumons abritent une flore microbienne spécifique qui aide à la protection et à la santé respiratoire. L'océan, avec ses récifs coralliens et sa biodiversité marine, abrite une vie complexe qui soutient les cycles naturels, et permet à l’océan de capturer le CO2 et à distribuer l’oxygène. La biodiversité permet, tout comme la flore microbienne des poumons, de protéger les d'océan d'espèce invasive qui nuisent au bon équilibre mondiale.",
+        "Texte plus simple",
+        "./../Images/coraux_diversité_poumons.jpg",
+        "Description",
         null
     ),
     "Rein": new Vignette(
-        "Rein gauche",
-        "Texte du rein gauche",
-        "Texte accessible rein gauche",
+        "Les Courants Océaniques et les Reins : Deux Forces de Redistribution et d'Élimination",
+        "Les courants de profondeur effectuent l’élimination et redistribution : ils transportent les eaux riches en nutriments et éliminent les déchets organiques des couches superficielles, tout comme les reins qui éliminent les déchets du sang tout en distribuant des substances essentielles.",
+        "Texte plus simple",
         null,
-        "Description du rein gauche",
-        null
+        "Description",
+        "Les Courants Océaniques : Différents Types, Causes, Effets Et Importance | Durable"
     ),
     "Peau": new Vignette(
         "La Peau et l'Océan : Deux Barrières Essentielles à l'Équilibre",
@@ -44,6 +44,14 @@ const vignettes = {
         "Description",
         null
     ),
+    "Coeur":new Vignette(
+        "L’océan :  Notre source d'Oxygène ",
+        "Le cœur permet de réoxygéner tout notre système sanguin à chaque battement tout comme les phytoplanctons (micro-organismes marins) , contenue dans l’océan, qui rejettent entre 50% à 80% d'oxygène dans notre atmosphère. De plus, l'océan absorbe un quart du CO2 rejeté par l’homme. ",
+        "Texte plus simple",
+        "./../Images/Coeur.png",
+        "Description",
+        null
+)
 };
 
 // Stockage de l'instance dans l'objet global
@@ -56,12 +64,26 @@ function afficherTout(event,titre) {
     console.log(vignette);
     if(vignette){
         document.getElementById('titre').textContent = vignette.titre;
-        document.getElementById('texte').textContent = vignette.texte;
-        document.getElementById('texteAccessible').textContent = vignette.texte;
+        const texte = document.getElementById('texte').textContent = vignette.texte;
+        const button = document.createElement('button');
+        button.id='toogleTexteAccessible';
+        button.textContent = 'Afficher texte accessible';
+        button.addEventListener('click',function(){
+            const texteAccessible=document.getElementById('texteAccessible').textContent = vignette.texte;
+            if(texteAccessible.style.display==='none'){
+                texteAccessible.style.display='block';
+                texte.style.display='none';
+            }
+            else{
+                texteAccessible.style.display='none';
+                texte.style.display='block';
+            }
+        })
         const img = document.getElementById('image');
         if(vignette.image){
             img.src = vignette.image;
             img.alt = vignette.descriptionImage;
+            img.style.display = 'block';
         }
         else{
             img.style.display = 'none';
