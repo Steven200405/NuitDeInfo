@@ -1,4 +1,4 @@
-
+// Classe Vignette
 class Vignette {
     constructor(titre, texte, texteAccessible, image, descriptionImage, lien) {
         this.titre = titre;
@@ -44,58 +44,69 @@ const vignettes = {
         "Description",
         null
     ),
-    "Coeur":new Vignette(
+    "Coeur": new Vignette(
         "L’océan :  Notre source d'Oxygène ",
         "Le cœur permet de réoxygéner tout notre système sanguin à chaque battement tout comme les phytoplanctons (micro-organismes marins) , contenue dans l’océan, qui rejettent entre 50% à 80% d'oxygène dans notre atmosphère. De plus, l'océan absorbe un quart du CO2 rejeté par l’homme. ",
         "Texte plus simple",
         "./../Images/Coeur.png",
         "Description",
         null
-)
+    ),
+    "Sang": new Vignette(
+        "Océan et Sang : La Circulation des Fluides au Service de la Température Planétaire",
+        "L’océan permet de de stocker la chaleur, régulant la température mondiale. Cela s'explique par les courants océaniques qui distribuent l’excès de chaleur reçu aux tropiques vers les plus hautes latitudes. D’une manière générale, les gaz sont plus solubles dans les eaux froides que chaudes. Par conséquent, les eaux de surfaces des hautes latitudes sont plus riches en gaz que celles des basses latitudes. Le renouvellement des eaux de surface par la circulation océanique jouent par conséquent un rôle très important dans le cycle du gaz carbonique et du carbone, en entraînant les eaux enrichies des hautes latitudes vers l’océan profond.",
+        "Texte plus simple",
+        "./../Images/courant_océanique_températue.webp",
+        "Description",
+        "https://ocean-climate.org/presentation-des-fiches-scientifiques-ocean-et-climat/locean-reservoir-de-chaleur/"
+    )
 };
 
 // Stockage de l'instance dans l'objet global
 window.vignettes = vignettes;
 
 // Fonction pour afficher le titre
-function afficherTout(event,titre) {
+function afficherTout(event, titre) {
     event.preventDefault();
     const vignette = window.vignettes[titre];
     console.log(vignette);
-    if(vignette){
+    if (vignette) {
         document.getElementById('titre').textContent = vignette.titre;
         const texte = document.getElementById('texte').textContent = vignette.texte;
         const button = document.createElement('button');
-        button.id='toogleTexteAccessible';
+        button.id = 'toogleTexteAccessible';
         button.textContent = 'Afficher texte accessible';
-        button.addEventListener('click',function(){
-            const texteAccessible=document.getElementById('texteAccessible').textContent = vignette.texte;
-            if(texteAccessible.style.display==='none'){
-                texteAccessible.style.display='block';
-                texte.style.display='none';
+        button.addEventListener('click', function () {
+            const texteAccessible = document.getElementById('texteAccessible').textContent = vignette.texte;
+            if (texteAccessible.style.display === 'none') {
+                texteAccessible.style.display = 'block';
+                texte.style.display = 'none';
             }
-            else{
-                texteAccessible.style.display='none';
-                texte.style.display='block';
+            else {
+                texteAccessible.style.display = 'none';
+                texte.style.display = 'block';
             }
         })
         const img = document.getElementById('image');
-        if(vignette.image){
+        if (vignette.image) {
             img.src = vignette.image;
             img.alt = vignette.descriptionImage;
             img.style.display = 'block';
         }
-        else{
+        else {
             img.style.display = 'none';
         }
 
         const lien = document.getElementById('lien');
-        if(vignette.lien){
+        if (vignette.lien) {
             lien.href = vignette.lien;
-            lien.style.display='inline';
+            lien.style.display = 'inline';
         }
-        else{
-            lien.style.display='none';
+        else {
+            lien.style.display = 'none';
         }
 
     }
+
+
+}
