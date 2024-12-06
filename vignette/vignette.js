@@ -56,7 +56,7 @@ const vignettes = {
         "Océan et Sang : La Circulation des Fluides au Service de la Température Planétaire",
         "L’océan permet de de stocker la chaleur, régulant la température mondiale. Cela s'explique par les courants océaniques qui distribuent l’excès de chaleur reçu aux tropiques vers les plus hautes latitudes. D’une manière générale, les gaz sont plus solubles dans les eaux froides que chaudes. Par conséquent, les eaux de surfaces des hautes latitudes sont plus riches en gaz que celles des basses latitudes. Le renouvellement des eaux de surface par la circulation océanique jouent par conséquent un rôle très important dans le cycle du gaz carbonique et du carbone, en entraînant les eaux enrichies des hautes latitudes vers l’océan profond.",
         "Texte plus simple",
-        "./../Images/courant_océanique_températue.webp",
+        "./../Images/courant_océanique_températue.png",
         "Description",
         "https://ocean-climate.org/presentation-des-fiches-scientifiques-ocean-et-climat/locean-reservoir-de-chaleur/"
     )
