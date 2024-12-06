@@ -98,7 +98,7 @@ function afficherTout(event, titre) {
         }
 
         const lien = document.getElementById('lien');
-        if (vignette.lien) {
+        if (!(vignette.lien=== null)) {
             lien.href = vignette.lien;
             lien.style.display = 'inline';
         }

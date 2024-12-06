@@ -76,10 +76,16 @@ h1 {
     height: auto;
 }
 
+#lien{
+    display: none;
+}
+
 .BlocContenu{
     display:flex;
 }
 
 .vignette{
     text-align: justify;
+    margin:auto;
+    padding-right: 5%;
 }
