@@ -7,6 +7,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    background-color: #FFFFFF;
 }
 
 footer{
@@ -67,4 +68,18 @@ h1 {
 
 .organe:hover{
     filter: brightness(50%);
+}
+
+#image{
+    display: none;
+    width: 300px;
+    height: auto;
+}
+
+.BlocContenu{
+    display:flex;
+}
+
+.vignette{
+    text-align: justify;
 }
