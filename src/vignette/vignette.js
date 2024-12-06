@@ -41,7 +41,7 @@ const Poumons = new Vignette(
     "Poumons et Océan : La Biodiversité, Gardienne  de la santé",
     "Les poumons abritent une flore microbienne spécifique qui aide à la protection et à la santé respiratoire. L'océan, avec ses récifs coralliens et sa biodiversité marine, abrite une vie complexe qui soutient les cycles naturels, et permet à l’océan de capturer le CO2 et à distribuer l’oxygène. La biodiversité permet, tout comme la flore microbienne des poumons, de protéger les d'océan d'espèce invasive qui nuisent au bon équilibre mondiale.",
     "Texte plus simple",
-    null,
+    Images/coraux_diversité_poumons.jpg,
     "Description",
     null
 );
@@ -50,7 +50,7 @@ const Sang = new Vignette(
     "Océan et Sang : La Circulation des Fluides au Service de la Température Planétaire",
     "L’océan permet de de stocker la chaleur, régulant la température mondiale. Cela s'explique par les courants océaniques qui distribuent l’excès de chaleur reçu aux tropiques vers les plus hautes latitudes. D’une manière générale, les gaz sont plus solubles dans les eaux froides que chaudes. Par conséquent, les eaux de surfaces des hautes latitudes sont plus riches en gaz que celles des basses latitudes. Le renouvellement des eaux de surface par la circulation océanique jouent par conséquent un rôle très important dans le cycle du gaz carbonique et du carbone, en entraînant les eaux enrichies des hautes latitudes vers l’océan profond.",
     "Texte plus simple",
-    null,
+    Images/courant_océanique_températue.webp,
     "Description",
     "https://ocean-climate.org/presentation-des-fiches-scientifiques-ocean-et-climat/locean-reservoir-de-chaleur/"
 );
@@ -59,7 +59,7 @@ const Coeur = new Vignette(
     "L’océan :  Notre source d'Oxygène ",
     "Le cœur permet de réoxygéner tout notre système sanguin à chaque battement tout comme les phytoplanctons (micro-organismes marins) , contenue dans l’océan, qui rejettent entre 50% à 80% d'oxygène dans notre atmosphère. De plus, l'océan absorbe un quart du CO2 rejeté par l’homme. ",
     "Texte plus simple",
-    null,
+    Images/Coeur.png,
     "Description",
     null
 );
